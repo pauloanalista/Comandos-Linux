@@ -1,9 +1,9 @@
 # Comandos-Linux
 
-1. Investigando a Memória e o Swap
+## 1. Investigando a Memória e o Swap
 free -h
 --------------------------------------------------------------
-2 - SERVIDOR TIRANDO APLICACAO DA MEMORIA
+## 2 - SERVIDOR TIRANDO APLICACAO DA MEMORIA
 Como verificar a agressividade do Swap
 cat /proc/sys/vm/swappiness
 
@@ -27,17 +27,17 @@ Plaintext
 vm.swappiness=10
 --------------------------------------------------------------
 
-3 - VERIFICANDO ESPAÇO EM DISCO
+## 3 - VERIFICANDO ESPAÇO EM DISCO
 df -h
 
 --------------------------------------------------------------
-4 - VERIFICAR GARGALO DE LEITURA E ESCRITA
+## 4 - VERIFICAR GARGALO DE LEITURA E ESCRITA
 htop
 
 --------------------------------------------------------------
 
 
-5. Liberar espaço IMEDIATAMENTE
+## 5. Liberar espaço IMEDIATAMENTE
 
 Execute:
 
@@ -55,7 +55,7 @@ cache de build
 
 --------------------------------------------------------------
 
-6. Limpar logs gigantes do Docker (muito provável)
+## 6. Limpar logs gigantes do Docker (muito provável)
 
 Veja:
 

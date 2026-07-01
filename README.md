@@ -41,19 +41,19 @@ htop
 
 Execute:
 
-# 1. Verificar o espaço utilizado pelo Docker
+### 1. Verificar o espaço utilizado pelo Docker
 docker system df
 
-# 2. Remover containers parados
+### 2. Remover containers parados
 docker container prune -f
 
-# 3. Remover todas as imagens que não estão sendo utilizadas
+### 3. Remover todas as imagens que não estão sendo utilizadas
 docker image prune -a -f
 
-# 4. Remover cache de build
+### 4. Remover cache de build
 docker builder prune -a -f
 
-# 5. Verificar quanto espaço foi liberado
+### 5. Verificar quanto espaço foi liberado
 docker system df
 
 --------------------------------------------------------------
